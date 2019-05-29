@@ -8,7 +8,7 @@ A ReactJs application that uses GitHub Api to fecth and filter data (issues and 
 2. Install dependencies using the `npm install` command.
 3. Cd into the 'app' folder.
 4. Start the web server using the `npm start` command. The app will be served at <http://localhost:3000>.
-5. Go to <http://localhost:3080/> in your browser.
+5. Go to <http://localhost:3000/> in your browser.
 6. Use the Search Bar to search issues from a specific repository
 7. Hit 'Enter'
 8. Filter results

@@ -2,6 +2,8 @@
 
 A ReactJs application that uses GitHub Api to fecth and filter data (issues and pull requests) from existing repositories
 
+Check the live version here: https://github-issue-explorer.netlify.com/
+
 ## Getting Started
 
 1. Fork this repository, then clone your fork of this repository.

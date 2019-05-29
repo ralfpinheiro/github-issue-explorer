@@ -1,6 +1,6 @@
 # GitHub Issue Viewer
 
-A ReactJs application that uses GitHub Api to fecth and filter data (issues and pull requests) from repositories
+A ReactJs application that uses GitHub Api to fecth and filter data (issues and pull requests) from existing repositories
 
 ## Getting Started
 
@@ -21,3 +21,9 @@ A ReactJs application that uses GitHub Api to fecth and filter data (issues and 
 - React Text Truncate
 - Prop-Types
 - Material UI
+
+### Screenshots
+
+![alt text](/public/images/home.png "Homepage")
+
+![alt text](/public/images/issues.png "Homepage")

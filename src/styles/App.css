@@ -1,0 +1,73 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.Homepage {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e91e63;
+}
+
+.MainLogo {
+  font-weight: bold !important;
+  font-size: 48px;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  position: fixed;
+  top: 110px;
+  right: 50px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #ccc;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ErrorMsg {
+  padding: 15px;
+  color: #fff;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.example {
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1020px) {
+  .MainLogo {
+    font-size: 36px;
+  }
+
+  .close {
+    width: 20px;
+    top: 110px;
+    right: 25px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .MainLogo {
+    font-size: 30px;
+  }
+}

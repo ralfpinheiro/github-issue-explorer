@@ -1,0 +1,50 @@
+.Header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e91e63;
+  z-index: 100;
+  -webkit-box-shadow: 1px 3px 23px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 3px 23px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 3px 23px -1px rgba(0, 0, 0, 0.2);
+}
+
+.HeaderLogo {
+  color: #fff;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+}
+
+.HeaderURL {
+  color: #cfd8dc;
+  font-size: 18px;
+  float: right;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 960px) {
+  .HeaderURL {
+    font-size: 14px;
+    float: right;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .Header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .HeaderLogo {
+    float: none;
+    text-align: center;
+  }
+  .HeaderURL {
+    float: none;
+    text-align: center;
+  }
+}

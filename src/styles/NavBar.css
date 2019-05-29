@@ -1,0 +1,62 @@
+.nav {
+  padding: 30px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+.nav-item {
+  font-size: 18px;
+  color: #607d8b;
+  display: inline-block;
+}
+
+.nav-item:hover {
+  color: #e91e63;
+}
+
+.nave-item:active {
+  color: #e91e63;
+}
+
+.NavFilter {
+  position: relative;
+}
+
+.nav-item {
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+  .nav {
+    width: 570px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 780px) {
+  .nav {
+    padding-top: 45px;
+    width: 500px;
+  }
+
+  .nav-item {
+    font-size: 14px !important;
+  }
+  .card {
+    width: 22rem !important;
+    margin: 0 auto;
+  }
+}

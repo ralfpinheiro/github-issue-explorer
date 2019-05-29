@@ -1,0 +1,17 @@
+.IssueList {
+  position: relative;
+  top: 190px;
+}
+
+.noResults {
+  width: 180px;
+  height: 50;
+  padding: 20px;
+  background-color: #3f51b5;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  margin: auto;
+}

@@ -1,6 +1,6 @@
-# GitHub Issue Viewer
+# Gitissue - GitHub Issue Viewer
 
-A ReactJs application that uses GitHub Api to fecth and filter data (issues and pull requests) from existing repositories
+Gitissue is a ReactJs application that uses GitHub Api to fecth and filter data (issues and pull requests) from existing repositories
 
 Check the live version here: https://github-issue-explorer.netlify.com/
 

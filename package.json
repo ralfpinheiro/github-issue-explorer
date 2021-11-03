@@ -10,7 +10,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
     "react-text-truncate": "^0.14.1",
-    "validator": "^10.11.0"
+    "validator": "^13.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
